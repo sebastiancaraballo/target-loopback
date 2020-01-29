@@ -1,7 +1,7 @@
-import {TargetMvdApplication} from './application';
-import {ApplicationConfig} from '@loopback/core';
+import { TargetMvdApplication } from './application';
+import { ApplicationConfig } from '@loopback/core';
 
-export {TargetMvdApplication};
+export { TargetMvdApplication };
 
 export async function main(options: ApplicationConfig = {}) {
   const app = new TargetMvdApplication(options);
